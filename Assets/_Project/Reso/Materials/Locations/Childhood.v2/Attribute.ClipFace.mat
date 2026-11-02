@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Attribute.ClipFace
-  m_Shader: {fileID: -6465566751694194690, guid: 0639a93ebb2fee84f8abdc464737f932, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: f07f30b86b5f48b98e20f380036949f7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:

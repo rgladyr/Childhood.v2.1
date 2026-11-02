@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a75492b426c36dd409ee985e618effca
+guid: ffd83fe500774b5ea0b9d4624f1cd1fe
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,72 +8,72 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Attribute
-    second: {fileID: 2100000, guid: ec89431870630244fb93b067dfa90d02, type: 2}
+    second: {fileID: 2100000, guid: 3efcea69444248f480e31e38772812f2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Attribute.ClipFace
-    second: {fileID: 2100000, guid: dc269f1408252464c95fb91e87274442, type: 2}
+    second: {fileID: 2100000, guid: 4a49d96c470b48a392cce59701f48272, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Border.TreeBush
-    second: {fileID: 2100000, guid: 00860d01a67c53946a7be95120daece7, type: 2}
+    second: {fileID: 2100000, guid: 5c1d4a78da474ab49114e61f2fe4d71f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Monkey.Coverage
-    second: {fileID: 2100000, guid: ea6e674f374658f4a87e2f1940f890f7, type: 2}
+    second: {fileID: 2100000, guid: 6d56bf866d6945e4858a18390645101c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Pier.Bridge.v1.1_LOD1
-    second: {fileID: 2100000, guid: 51edca355144a6b499fcbee90685f18f, type: 2}
+    second: {fileID: 2100000, guid: 984ac52aefa241d28947d43135d52027, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Pier.Wall.v1.1_LOD1
-    second: {fileID: 2100000, guid: cf82757edc1cb6543beea5d674ab2f97, type: 2}
+    second: {fileID: 2100000, guid: bbd7fc09ab8b4b4196fc195c0e448a52, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Pier.Wall.v2.1_LOD1
-    second: {fileID: 2100000, guid: 41551f37e48948a4fb2bc4aec32bc0e9, type: 2}
+    second: {fileID: 2100000, guid: ef1e122c08bf4f2d82c80c08eb0a35c7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ravine.LiefSlide
-    second: {fileID: 2100000, guid: e06d64709c7c3884384eb3a0e178fd20, type: 2}
+    second: {fileID: 2100000, guid: b17cb75e53f6472b9da3f2a973d7e710, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Image_0.009
-    second: {fileID: 2800000, guid: 50be3dd2a7f040142b48c72445c3baa7, type: 3}
+    second: {fileID: 2800000, guid: 4408ba5749374634a6d98a588135db4a, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: LiefSlade_albedo
-    second: {fileID: 2800000, guid: 53a7ab5cd6aaabe489f7776f039aff16, type: 3}
+    second: {fileID: 2800000, guid: 250fdf3ac855477bb5b49119843f49c0, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Monkey.Coverage_color
-    second: {fileID: 2800000, guid: 3b2f7c6a0f02b0f41ab73ef79398cbaf, type: 3}
+    second: {fileID: 2800000, guid: 9bdd7b76e15843668c07a8b560021129, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Pier.Bridge.v1_LOD1_color1024
-    second: {fileID: 2800000, guid: d19242be65c5c9a45a9ab954cbdd10ae, type: 3}
+    second: {fileID: 2800000, guid: dfa0bcc70bfc4c07ad3780664a63b702, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Pier.Wall.v1.1_LOD1_color1024
-    second: {fileID: 2800000, guid: 2e4105c12331394449ec9b5b7f0d4a2c, type: 3}
+    second: {fileID: 2800000, guid: c533fcaaaea54caba2d035b7abde5b22, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Pier.Wall.v2.1_LOD1_color1024
-    second: {fileID: 2800000, guid: dd9bd8d2170e51f4da9950338dee99f1, type: 3}
+    second: {fileID: 2800000, guid: 7a4219dcce644e5f9b3536efcee80e3b, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

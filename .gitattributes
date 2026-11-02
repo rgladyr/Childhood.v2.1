@@ -1,0 +1,30 @@
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.FBX filter=lfs diff=lfs merge=lfs -text
+## .FBX был дополнительно добавлен, т.к git без этого не назначал LFS.
+
+
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.hdr filter=lfs diff=lfs merge=lfs -text
+
+# Unity Smart Merge
+*.unity merge=unityyamlmerge
+*.prefab merge=unityyamlmerge
+*.asset merge=unityyamlmerge
+*.mat merge=unityyamlmerge
+*.anim merge=unityyamlmerge
+*.controller merge=unityyamlmerge
+*.overrideController merge=unityyamlmerge
+*.playable merge=unityyamlmerge
+*.lighting merge=unityyamlmerge
+*.physicMaterial merge=unityyamlmerge
+*.mask merge=unityyamlmerge
+
+# Данные запекания бинарные: не сливать, перепекать
+**/LightingData.asset binary
+
+# Скрипты git-драйверов: только LF, иначе sh не запустит
+*.sh text eol=lf

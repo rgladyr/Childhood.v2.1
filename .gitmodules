@@ -1,0 +1,3 @@
+[submodule ".claude/skills/csharp-code-style"]
+	path = .claude/skills/csharp-code-style
+	url = https://github.com/zamaleev/PaperFly.Skills.Codestyle

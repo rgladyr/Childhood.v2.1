@@ -1,0 +1,71 @@
+<Project>
+
+  <!--
+    Directory.Build.props
+    =====================
+    Файл MSBuild. Применяется автоматически ко ВСЕМ .csproj в этом репозитории
+    (MSBuild ищет его, идя вверх по дереву от каждого .csproj).
+
+    Куда класть: в корень репозитория, рядом с .sln и .editorconfig.
+    Регистр имени важен на Linux/Mac: ровно "Directory.Build.props".
+
+    Что включает:
+      1. EnforceCodeStyleInBuild  — правила IDE* из .editorconfig падают на dotnet build
+      2. EnableNETAnalyzers       — встроенные правила CA* активны
+      3. AnalysisLevel/Mode       — уровень строгости аналайзеров
+      4. StyleCop.Analyzers       — правила SA* (нужны для §8 атрибутов и др.)
+
+    Если в каком-то .csproj нужно отключить часть этого — переопределите
+    соответствующее свойство внутри этого .csproj, локальное значение
+    перебьёт значение из Directory.Build.props.
+  -->
+
+  <PropertyGroup>
+    <!-- Версия языка C#. "latest" — все последние фичи доступны.
+         Если у вас фиксированная версия — поставьте, например, 12.0 или 13.0. -->
+    <LangVersion>latest</LangVersion>
+
+    <!-- Nullable reference types. Опционально. Если включаете на проекте,
+         где раньше не было — будет много warning'ов. Закомментируйте,
+         если не готовы сейчас разбираться. -->
+    <Nullable>enable</Nullable>
+
+    <!-- ↓↓↓ Главное для интеграции с Claude Code и .editorconfig ↓↓↓ -->
+
+    <!-- Включает применение правил стиля (IDE*) при dotnet build.
+         Без этого .editorconfig работает только в IDE. -->
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+
+    <!-- Включает встроенные .NET аналайзеры (правила CA*).
+         С .NET 5+ они идут в составе SDK, нужен только этот флаг. -->
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+
+    <!-- Уровень аналайзеров. "latest" — самый свежий набор правил. -->
+    <AnalysisLevel>latest</AnalysisLevel>
+
+    <!-- Режим. "AllEnabledByDefault" включает ВСЕ правила, и потом вы
+         в .editorconfig точечно настраиваете severity для каждого.
+         Если хотите консервативнее — поменяйте на "Recommended". -->
+    <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+
+    <!-- НЕ превращаем все warning'и в ошибки автоматически.
+         severity=error в .editorconfig делает это для нужных правил
+         точечно — лучше так, чем глобально. -->
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+
+    <!-- Подавляет шум о CSXXXX правилах, которые не относятся к стилю. -->
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- StyleCop.Analyzers — нужен для правил SA* из вашего .editorconfig
+         (например, §8 SA1133 — атрибуты в отдельных скобках).
+         PrivateAssets=all → не утечёт в зависимости вашего пакета,
+         если вы публикуете NuGet. -->
+    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

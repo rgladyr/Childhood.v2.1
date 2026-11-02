@@ -1,0 +1,55 @@
+# .gitignore — репозиторий-скил csharp-code-style.
+# Состав репозитория: Markdown-регламент (docs/) + SKILL.md. Потребляется как Claude Code skill.
+#
+# ВАЖНО: здесь НЕТ Unity-проекта. Unity-игноры (Library/, Temp/, Logs/, *.meta, *.csproj,
+# *.sln) относятся к РОДИТЕЛЬСКОМУ репозиторию игры, а не к этому. Сюда их не добавляем.
+
+### OS — системный мусор файловых менеджеров
+## macOS
+.DS_Store
+._*
+Icon
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+## Windows
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+## Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+### IDE / редакторы — личные, не командные артефакты
+# Rider / ReSharper
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+
+# VS Code: личные настройки игнорируем. Если появятся ОБЩИЕ настройки
+# (рекомендованные расширения, markdownlint) — комитьте их точечно через
+# `git add -f .vscode/extensions.json` и т.п.
+.vscode/
+
+### .NET — артефакты сборки примеров кода в docs/
+# Регламент может содержать компилируемые примеры/sample-проекты, иллюстрирующие
+# правила стиля. Их бинарный выхлоп в VCS не нужен.
+[Bb]in/
+[Oo]bj/
+*.nupkg
+project.lock.json

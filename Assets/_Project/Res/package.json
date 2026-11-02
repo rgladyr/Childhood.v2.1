@@ -1,0 +1,10 @@
+{
+  "name": "com.paperfly.childhoodv2.1",
+  "version": "1.0.0",
+  "displayName": "PaperFly Childhood.v2",
+  "description": "Тестовый UPM",
+  "unity": "6000.0",
+  "author": {
+    "name": "Роман Гладырь"
+  }
+}

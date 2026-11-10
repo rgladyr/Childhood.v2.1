@@ -1,7 +1,7 @@
 {
     "format": 2,
     "package": "com.paperfly.childhoodv2.1",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "renderKitVersion": "0.1.0",
     "files": [
         {
@@ -332,7 +332,7 @@
         {
             "path": "package.json",
             "guid": "79fab9a8ee2944b1bdc9ace8b89ace86",
-            "hash": "1da04365ffe998c90b7de1b7e443d28c7629aad45c00ca7d81704ad4a7744dd4"
+            "hash": "845fdfa6d6eede14a1484b850e116961daa5ed488d39b06bdf555d8ce6db5cfa"
         },
         {
             "path": "package.json.meta",

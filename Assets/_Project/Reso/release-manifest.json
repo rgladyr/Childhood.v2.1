@@ -1,0 +1,2527 @@
+{
+    "package": "com.paperfly.childhoodv2.1",
+    "version": "1.0.2",
+    "renderKitVersion": "0.1.0",
+    "files": [
+        {
+            "path": ".gitattributes",
+            "hash": "fc52fbc12b5c1c33eff41a66e59bae0c062deeac2600243f5f74d7538023020b"
+        },
+        {
+            "path": "Animations.meta",
+            "hash": "db0c81e4fc124b507f1b57df74a7e1e21dcc8be4d7caac239363cfb7c4b85796"
+        },
+        {
+            "path": "Animations/LongWing.v1.meta",
+            "hash": "0913220fb516e24a174c615e55195d29489d847844e86405f4930a1c35036e31"
+        },
+        {
+            "path": "Animations/LongWing.v1/Idle.anim",
+            "hash": "c9670c54f72a91d1b4db848b52fc8bee0867ebef7eacafe61be585d27173ce8d"
+        },
+        {
+            "path": "Animations/LongWing.v1/Idle.anim.meta",
+            "hash": "7c1ef8c2c9487934a17be5ec53fe13635512be2f3a5289c91b05e41c5825f49f"
+        },
+        {
+            "path": "Animations/LongWing.v1/Model.controller",
+            "hash": "12a88f8e1a89906eea297145e8dbabb5e2a2089f5b4fffb8bed10fc5ae2c39dc"
+        },
+        {
+            "path": "Animations/LongWing.v1/Model.controller.meta",
+            "hash": "519761bdc450da38f0eb97edcaa91cb39481432377aae9fe0b93843295b844a4"
+        },
+        {
+            "path": "Animations/LongWing.v1/Pitch_Down.anim",
+            "hash": "1f9c2e5078b766d49d0e24638489a330db6b062aeb346f2e859ad94dfa9f2c6d"
+        },
+        {
+            "path": "Animations/LongWing.v1/Pitch_Down.anim.meta",
+            "hash": "ff8966e1066dc09f966caf88189864e3e54e491d4148fd1779cc66d462410035"
+        },
+        {
+            "path": "Animations/LongWing.v1/Pitch_Up.anim",
+            "hash": "ade2ca50125c9335fa2bc9d4c24d95e75a39fe76b08df0444a7b60f7c2a378e8"
+        },
+        {
+            "path": "Animations/LongWing.v1/Pitch_Up.anim.meta",
+            "hash": "65b22a9ef574ed29951721499e3231cd538d871763c9676d7a6563bf2152225f"
+        },
+        {
+            "path": "Animations/LongWing.v1/Roll_Left.anim",
+            "hash": "fed915c4e69be03867f6580822f13d1a4f5262c15f839c493ab1b08e5d4e3c07"
+        },
+        {
+            "path": "Animations/LongWing.v1/Roll_Left.anim.meta",
+            "hash": "b5e3618ec943ec278cc5d71ac809d75f576d1064e3d5b66e96fef6f2289160ee"
+        },
+        {
+            "path": "Animations/LongWing.v1/Roll_Right.anim",
+            "hash": "57f9d1146eb44ff9cec6279c786e5f52c3f068848cf7f8199f8766cb6bf2afd6"
+        },
+        {
+            "path": "Animations/LongWing.v1/Roll_Right.anim.meta",
+            "hash": "92ce4ae113b9b32f0b2c3ad81cab2b03e444d518c060d5f20a5a77fb2e801672"
+        },
+        {
+            "path": "Localizations.meta",
+            "hash": "50f5627b3a0fa5c04438e4244f9d2a9110b53e4b29f75a2619e6b9b96ee927ab"
+        },
+        {
+            "path": "Location-Art.prefab",
+            "hash": "b452172c51197174a31bf7a54fbadf082ebe117b350573467f95a1cb0aa1447b"
+        },
+        {
+            "path": "Location-Art.prefab.meta",
+            "hash": "a8dd4512248e01133a7c6be1329b0d30ccd590a02dee2352f5964b39710df5f5"
+        },
+        {
+            "path": "Materials.meta",
+            "hash": "6c68704302caf680679ba1109f2e82f291a4ddcb86c5f51718bd0f3e0059618f"
+        },
+        {
+            "path": "Materials/Locations.meta",
+            "hash": "d8436029838a376ae91a1e5031aac472b6334b86b14c6d1d374d76c790be15f0"
+        },
+        {
+            "path": "Materials/Locations/Childhood.v2.meta",
+            "hash": "0520593f9f4b24b213aeb0d695c6fdaba4b3aedcc8375665bedfe6ae3190d332"
+        },
+        {
+            "path": "Materials/Locations/Childhood.v2/Attribute.ClipFace.mat",
+            "hash": "511ce22735f2eadc42120f522d04555f668ba02ac313a9c7ea391c1ca62b065d"
+        },
+        {
+            "path": "Materials/Locations/Childhood.v2/Attribute.ClipFace.mat.meta",
+            "hash": "b99985ee63ac20332ad28f313aedf930dcce04dbad1a08d7aea01a37208e754d"
+        },
+        {
+            "path": "Materials/Locations/Childhood.v2/Attribute.mat",
+            "hash": "62e642501c6621189a13625c0171378d0d504c7ac7e746d86b9d5eb5c7eaad37"
+        },
+        {
+            "path": "Materials/Locations/Childhood.v2/Attribute.mat.meta",
+            "hash": "94e8fa1980915a1566ec2e3e4aab6637651494ae3272d4c662009f25cec59fea"
+        },
+        {
+            "path": "Materials/Locations/Childhood.v2/Border.TreeBush.mat",
+            "hash": "763883ddd5d34d45765a35a6463848835b598eb26033c0f4757f6b94deecb3f8"
+        },
+        {
+            "path": "Materials/Locations/Childhood.v2/Border.TreeBush.mat.meta",
+            "hash": "f401a50b8921035e11d88f629d34be863435b840a32a33ed9ab472a81c542c1e"
+        },
+        {
+            "path": "Materials/Locations/Childhood.v2/Monkey.Coverage.mat",
+            "hash": "e141591e5387101277794fe61501dcb67910c698096ff682384277b1b4b518ea"
+        },
+        {
+            "path": "Materials/Locations/Childhood.v2/Monkey.Coverage.mat.meta",
+            "hash": "d2b01f7f35045c371ad0001a62b591c34f65e5d403392c98c54dc800716d1dcb"
+        },
+        {
+            "path": "Materials/Locations/Childhood.v2/Pier.Bridge.v1.1_LOD1.mat",
+            "hash": "06dc212ea5063448ef4b0eec0cda89e04fbd03c56980462fca04ec51100d0068"
+        },
+        {
+            "path": "Materials/Locations/Childhood.v2/Pier.Bridge.v1.1_LOD1.mat.meta",
+            "hash": "462e9610b5083b8a5b66100ffaeee2cd0b6b24c94e77b9ad7ce5b40f6709ed7d"
+        },
+        {
+            "path": "Materials/Locations/Childhood.v2/Pier.Wall.v1.1_LOD1.mat",
+            "hash": "3703cff042c49a9ff39210d301ed507713a4e6fa26f8f1afe3f95eb8a1a85eee"
+        },
+        {
+            "path": "Materials/Locations/Childhood.v2/Pier.Wall.v1.1_LOD1.mat.meta",
+            "hash": "6022fbda791d7eed6bb847b262bd5873405eaf75afaad31d4ce646a9ac8be1b6"
+        },
+        {
+            "path": "Materials/Locations/Childhood.v2/Pier.Wall.v2.1_LOD1.mat",
+            "hash": "36f9ac37b5804b404d3a4ee294fc147b35e2756aa28fda93ba6898fd2c46e0eb"
+        },
+        {
+            "path": "Materials/Locations/Childhood.v2/Pier.Wall.v2.1_LOD1.mat.meta",
+            "hash": "5dddb0e1519def6da03bf25bb534bacce1da4d210c449e5cbddaeae3a7efb1ce"
+        },
+        {
+            "path": "Materials/Locations/Childhood.v2/Ravine.LiefSlide.mat",
+            "hash": "8b71ddedce4a8c147b18ff4767929bcfb895e68cac03c91bf6104ccd2301680e"
+        },
+        {
+            "path": "Materials/Locations/Childhood.v2/Ravine.LiefSlide.mat.meta",
+            "hash": "839c5a31b3af098dff1a6148fdf53db5f7d8532105cda02617228762cf9d3968"
+        },
+        {
+            "path": "Models.meta",
+            "hash": "87fa4e67fcebe1cedc5ec92c8c8d0e7c8e1f5ad3de24f4a499125bbbe7431420"
+        },
+        {
+            "path": "Models/Locations.meta",
+            "hash": "7ebcf49d6fe3d63f9b3e57b0dbdabc99439ee5e1d20fa8490d0a367ebc6a2f09"
+        },
+        {
+            "path": "Models/Locations/Childhood.v2.fbx",
+            "hash": "ee97bfac643625d72e5ab96261ff99c39a7735bb1bb733d5a1253c009fd7f6c6"
+        },
+        {
+            "path": "Models/Locations/Childhood.v2.fbx.meta",
+            "hash": "6f2112aa95655d9680c3becfbb8c9f59ea4342e85b2447927f0437b84ce7d7bc"
+        },
+        {
+            "path": "Models/Planes.meta",
+            "hash": "3b2fd4be16f731eed98aa362889b7727d84c38d3e8e29bede4b11019b5450b49"
+        },
+        {
+            "path": "Models/Planes/LongWing.v1.fbx",
+            "hash": "311ed2a3ef830ffbdf74658371e0bcd77ba3570f97106a0b6841b516aff59d02"
+        },
+        {
+            "path": "Models/Planes/LongWing.v1.fbx.meta",
+            "hash": "502f3cfe4a125c909895f22fc80e05fe74bcb30950ce61f6298d04802a1cb20f"
+        },
+        {
+            "path": "Shaders.meta",
+            "hash": "6e9abd5e7db30950f3c1ce746210463062a7d095e1431d5ae6ca5876d454074d"
+        },
+        {
+            "path": "Shaders/Locations.meta",
+            "hash": "fd3c21f2452abb2cade6249ebe74cab58b5a4879b7e4ac4a105a94adb172c7be"
+        },
+        {
+            "path": "Shaders/Locations/Childhood.v2.meta",
+            "hash": "37331d416622dfb722123a545df8c9b0494498b916cb07ea1165e0246e8d993c"
+        },
+        {
+            "path": "Shaders/Locations/Childhood.v2/VertexShader.shadergraph",
+            "hash": "d35d94b981dbafb9802b975899864a63828dbcfc1268718ee055949332844367"
+        },
+        {
+            "path": "Shaders/Locations/Childhood.v2/VertexShader.shadergraph.meta",
+            "hash": "9f3a115317a690b03a51e22842cf447fe612a2f75aec5be35812374f81fef56e"
+        },
+        {
+            "path": "Sounds.meta",
+            "hash": "08c8cf6f5a7ac009cfd3af67e78dc024bf3274ff33219a4f351ed444a094a60f"
+        },
+        {
+            "path": "Sprites.meta",
+            "hash": "9b7a1aec99d2a7e62c5c5079f522ae654c15f43aeb54bcd71497a4bb11704ed2"
+        },
+        {
+            "path": "Textures.meta",
+            "hash": "a237c6596c9f20ba6ae91fdad4d86c16aba6b06f585a74678140b8ce53f264cc"
+        },
+        {
+            "path": "Textures/Childgood.v2.meta",
+            "hash": "c7b82a57e4a18aa0376973d036e4c4b5920dc9cad611c251c3a2467ea4f61d3c"
+        },
+        {
+            "path": "Textures/Childgood.v2/Image_0.009.png",
+            "hash": "071c13fd48fe88de03551dde137701b24d1c5b8b61921acdd8bf249c836ff14e"
+        },
+        {
+            "path": "Textures/Childgood.v2/Image_0.009.png.meta",
+            "hash": "6e14f3e02b8ab0291c648379174deda6ba3773b10b106eb369c183ec5209e055"
+        },
+        {
+            "path": "Textures/Childgood.v2/LiefSlade_albedo.jpg",
+            "hash": "8efb2554e1ff87fbbae69fa3feefd9211eb2f251228cd8ed2e3e8f5aca66e34c"
+        },
+        {
+            "path": "Textures/Childgood.v2/LiefSlade_albedo.jpg.meta",
+            "hash": "f71b4a2658a89cab83bac71b25ea395bedb62cb6de468e7dca7821df69bd1126"
+        },
+        {
+            "path": "Textures/Childgood.v2/Monkey.Coverage_color.jpg",
+            "hash": "31431a14762d37a84231ec3b4a49a6e0d320b75c541d3a101f4bfb6fa945db5f"
+        },
+        {
+            "path": "Textures/Childgood.v2/Monkey.Coverage_color.jpg.meta",
+            "hash": "25f47c8f103119feedee007bbc7980433d431cd260e30a209606814d61502eda"
+        },
+        {
+            "path": "Textures/Childgood.v2/Pier.Bridge.v1_LOD1_color1024.jpg",
+            "hash": "547e808461cacb2f066f2312877107708a1fc6771c7cedff578da7bcf019ad55"
+        },
+        {
+            "path": "Textures/Childgood.v2/Pier.Bridge.v1_LOD1_color1024.jpg.meta",
+            "hash": "dcc43f3ab460befece372833e044fd532e0d8cae09ea924884819e9577b2d37c"
+        },
+        {
+            "path": "Textures/Childgood.v2/Pier.Wall.v1.1_LOD1_color1024.jpg",
+            "hash": "8ad3780495ce639a8dc785dd30ae3e77b05b50b860deefb52cbd364e55dd5f13"
+        },
+        {
+            "path": "Textures/Childgood.v2/Pier.Wall.v1.1_LOD1_color1024.jpg.meta",
+            "hash": "f1199a491d337ba6d919622ee1ca542fe515465b86fe981cc3302a4948709501"
+        },
+        {
+            "path": "Textures/Childgood.v2/Pier.Wall.v2.1_LOD1_color1024.jpg",
+            "hash": "c344c3cadebfc74e70c6702727e7e803442ed186d790a49b7aff37a279b14044"
+        },
+        {
+            "path": "Textures/Childgood.v2/Pier.Wall.v2.1_LOD1_color1024.jpg.meta",
+            "hash": "75d60f459b7c51fa7049903ded73d92df0311db06b2bb0cabe5c0a0fb3d6b1cc"
+        },
+        {
+            "path": "package.json",
+            "hash": "1da04365ffe998c90b7de1b7e443d28c7629aad45c00ca7d81704ad4a7744dd4"
+        },
+        {
+            "path": "package.json.meta",
+            "hash": "7338b16cb7622c511b91985de083c45c06c5206541a127ba304b6e402e101132"
+        }
+    ],
+    "objects": [
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art",
+            "fileId": 1713396246800478908
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.23",
+            "fileId": 12142193153899216
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/RopeClimber.Sphere.v2.1",
+            "fileId": 18094717651952510
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.Bells.v1.5",
+            "fileId": 46497420656680912
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Road.Curbs.v3.1",
+            "fileId": 46667971952393927
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Lader.v1.1",
+            "fileId": 50098964262515396
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Monkey.Bench.v1.1/Monkey.Bench.v1.1_LOD1",
+            "fileId": 98131893016321739
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.13",
+            "fileId": 124226134423816528
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Ship.v1.1/Pier.Ship.v1.1_LOD1",
+            "fileId": 134868885105439065
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.6_LOD2",
+            "fileId": 177049035902925324
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.WaterLiles.v3.1",
+            "fileId": 242534515943572991
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Border.Tree.v1.5",
+            "fileId": 299305855733343135
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/SlideSafari.v1.1",
+            "fileId": 302219688463986621
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Apple.Cinnamon.v1.1/Apple.Cinnamon.v1.1_LOD1",
+            "fileId": 369559132768214599
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Bush002.v1.1",
+            "fileId": 408126516361780577
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.1",
+            "fileId": 413231739178132934
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Hill.Tree.v1.1",
+            "fileId": 465238730409370944
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Upland.Rock.v10.1/Upland.Rock.v10.1_LOD0",
+            "fileId": 502753196250094362
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.Bench.v8.1",
+            "fileId": 544884438562437438
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Wall.v2.1/Pier.Wall.v2.1_LOD0",
+            "fileId": 558082584441418116
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.5_LOD2",
+            "fileId": 570196792950064168
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief002.v1.1/Thuja.Lief002.v1.1_LOD1",
+            "fileId": 589858477519761864
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.15_LOD1",
+            "fileId": 600877413559296291
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Platform.v3.1",
+            "fileId": 617584378107032472
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/HillHands.ChamomilePetal.v1.1/HillHands.ChamomilePetal.v1.1_LOD1",
+            "fileId": 628850903031885588
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Upland.ArcFrame.v3.1",
+            "fileId": 635867087905660031
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Hill.Bench.v1.1",
+            "fileId": 669049931606255954
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Spiral.Bench.v1.2",
+            "fileId": 679248892426231099
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.9_LOD0",
+            "fileId": 699993890044976122
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/HillHands.ChamomilePetal.v4.1",
+            "fileId": 707803787059903434
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.34",
+            "fileId": 714952263627144912
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Hadrail.v4.1",
+            "fileId": 729266139878379814
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.7_LOD1",
+            "fileId": 737487960467925115
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Dome.Bench.v1.1",
+            "fileId": 739770052390019921
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tree.Trunk001.v1.2",
+            "fileId": 756005060844358886
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Upland.Rock.v10.1",
+            "fileId": 764480855102360189
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.19",
+            "fileId": 772933556730921382
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.13",
+            "fileId": 785363308735787303
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.13_LOD0",
+            "fileId": 792250809825720947
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Sand.v1.1",
+            "fileId": 842008139836364012
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.Bells.v1.1",
+            "fileId": 848641349173364472
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Rock.High.v9.1",
+            "fileId": 859280614355886265
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.17/Thuja.Lief001.v1.19_LOD1",
+            "fileId": 899787929258940273
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Hadrail.v1.1",
+            "fileId": 936693361878428894
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.4",
+            "fileId": 946992657463364201
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tree.Lief001.v1.1",
+            "fileId": 953627687282771002
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Flower.v1.9",
+            "fileId": 965531342426311589
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Pier.Lamp.v2.1",
+            "fileId": 1003553175089423503
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief002.v1.1",
+            "fileId": 1011995007815274321
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Wall.v2.1/Pier.Wall.v2.1_LOD1",
+            "fileId": 1013605238514890543
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.14_LOD2",
+            "fileId": 1030127898158978868
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Bush001.v1.1/Bush001.v1.1_LOD1",
+            "fileId": 1035779005173213647
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.BellsTrunk.v1.4",
+            "fileId": 1040184322505029906
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Upland.ArcRoof.v3.1",
+            "fileId": 1073515876014124983
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.4",
+            "fileId": 1076432102494010261
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Bridge.v1.1/Pier.Bridge.v1.1_LOD0",
+            "fileId": 1077171164367781172
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/HillHands.GandalfPetal.v2.1",
+            "fileId": 1088837320881532324
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Upland.Hadrail.v1.1",
+            "fileId": 1109023336711857807
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.9_LOD2",
+            "fileId": 1118245953121366769
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.2",
+            "fileId": 1140599504692469806
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Ship.v1.1",
+            "fileId": 1149484277831829312
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.14",
+            "fileId": 1162865510859695717
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Border.Tree.v1.3",
+            "fileId": 1224005266084488030
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.20",
+            "fileId": 1320950515214830946
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Border.Tree.v1.4",
+            "fileId": 1330653886129251501
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[Settings]",
+            "fileId": 1332575383822504161
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Upland.Rock.v4.1/Upland.Rock.v4.1_LOD1",
+            "fileId": 1348911340912275945
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Panda.Sticks.v2.1",
+            "fileId": 1392435475599897925
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.6_LOD0",
+            "fileId": 1395167254622498937
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.2_LOD1",
+            "fileId": 1401646192481030467
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.BellsTrunk.v1.1",
+            "fileId": 1494109254409235562
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/RopeClimber.Web.v2.1/RopeClimber.Web.v2.1_LOD1",
+            "fileId": 1577685122331625383
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.7_LOD0",
+            "fileId": 1599218151374687079
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.17/Thuja.Lief001.v1.18_LOD1",
+            "fileId": 1614942613449905853
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Platform.v2.1",
+            "fileId": 1634233527410516509
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/HillHands.ChamomilePetal.v1.1",
+            "fileId": 1644795743935939860
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.12",
+            "fileId": 1660174981272049879
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Upland.ArcFrame.v1.1",
+            "fileId": 1668459781246382862
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Hill.BenchWave.v1.1",
+            "fileId": 1672005767421250616
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Border.Tree.v1.1",
+            "fileId": 1679574248540938945
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Road.Curbs.v2.1",
+            "fileId": 1683382791619311754
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Octopus.v1.1/Pier.Octopus.v1.1_LOD2",
+            "fileId": 1748011979951030899
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.35",
+            "fileId": 1779215262544878235
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Upland.ArcRoof.v2.1",
+            "fileId": 1782265602752582222
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Arc.v2.1_LOD0",
+            "fileId": 1829222560935538641
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2",
+            "fileId": 1904180930189730455
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Upland.Rock.v1.1",
+            "fileId": 1945362767030510955
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1",
+            "fileId": 1954682820242667056
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.11_LOD0",
+            "fileId": 2015931160096380451
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Сloth.v2.1",
+            "fileId": 2028889505364646122
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Sand.v1.1/Pier.Sand.v1.1_LOD1",
+            "fileId": 2051073750426726305
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Upland.Hammok.v1.3",
+            "fileId": 2055250364030087763
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/HillHands.ChamomilePetal.v4.1/HillHands.ChamomilePetal.v4.1_LOD0",
+            "fileId": 2055906248184481274
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Upland.Rock.v11.1",
+            "fileId": 2067035053586779783
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Hadrail.v3.1",
+            "fileId": 2095550060866736977
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.BellsTrunk.v1.2",
+            "fileId": 2114144776568940542
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Monkey.Coverage.v1.1",
+            "fileId": 2123531326215055298
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief002.v1.1/Thuja.Lief002.v1.4_LOD1",
+            "fileId": 2158773602829032558
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.Trunk.v1.1/Ravine.Trunk.v1.1_LOD0",
+            "fileId": 2163185150184312606
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief002.v1.1/Thuja.Lief002.v1.5_LOD1",
+            "fileId": 2239767478662444931
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.37",
+            "fileId": 2247927403320973784
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.18",
+            "fileId": 2256746715972569374
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tree.Trunk001.v1.3",
+            "fileId": 2257043773841156397
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.3_LOD0",
+            "fileId": 2276642578765887698
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Dome.Trunk.v4.1",
+            "fileId": 2307041962056682212
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.Bench.v3.1",
+            "fileId": 2307167588279591760
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.1",
+            "fileId": 2316331581980379418
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Arc.v2.1_LOD1",
+            "fileId": 2318526523535224554
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.22",
+            "fileId": 2320074931591690316
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Border.Tree.v1.6",
+            "fileId": 2323646010388065666
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Rock.High.v10.1",
+            "fileId": 2396803810133275229
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Slide.v1.1",
+            "fileId": 2428094347998334741
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Clumb.v1.2",
+            "fileId": 2499218483594573343
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[Settings]/GlobalVolume",
+            "fileId": 2504707267096164962
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Road.v2.1",
+            "fileId": 2505645677857119502
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Market.Cloth.v1.1",
+            "fileId": 2506775610745871761
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Upland.Rock.v1.1/Upland.Rock.v1.1_LOD0",
+            "fileId": 2518287786267514354
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Bush003.v1.1",
+            "fileId": 2525076539296742690
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Flower.v1.5",
+            "fileId": 2558674016353809361
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.17/Thuja.Lief001.v1.20_LOD0",
+            "fileId": 2567677943536471014
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.Bells.v1.3",
+            "fileId": 2568700335501464834
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Lantern.v1.1",
+            "fileId": 2576564148025350999
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk002.v1.1",
+            "fileId": 2585282231494938413
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Hill.Wolf.v1.1",
+            "fileId": 2589911024961493621
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.Caterpillar.v1.1/Ravine.Caterpillar.v1.1_LOD1",
+            "fileId": 2687373359903284362
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.36",
+            "fileId": 2714713165727243427
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Panda.Logs.v2.1",
+            "fileId": 2714810399306376831
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/SlideMowgli.v1.1",
+            "fileId": 2740554302629371956
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Roots.v1.1",
+            "fileId": 2741489942541960138
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.12_LOD1",
+            "fileId": 2766824816475130890
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Roots.v2.1",
+            "fileId": 2783294909247057396
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Spiral.Wall.v1.1/Spiral.Wall.v1.1_LOD0",
+            "fileId": 2784733627410737600
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief002.v1.1/Thuja.Lief002.v1.5_LOD0",
+            "fileId": 2810387375144970145
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.30",
+            "fileId": 2840172192138489138
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.WaterLiles.v2.1/Ravine.WaterLiles.v2.1_LOD1",
+            "fileId": 2841341655969382611
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.17/Thuja.Lief001.v1.20_LOD2",
+            "fileId": 2846878955115051369
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Upland.ArcBase.v1.1",
+            "fileId": 2852867122015632263
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Bench.v2.1",
+            "fileId": 2856971581274448322
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Bush001.v1.1/Bush001.v1.1_LOD0",
+            "fileId": 2863835418214634954
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Pier.Stone.v1.1",
+            "fileId": 2889621395223107024
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Upland.Rock.v11.1/Upland.Rock.v11.1_LOD0",
+            "fileId": 2922485754162981515
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Panda.Sticks.v1.1",
+            "fileId": 2931108099281645237
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.5",
+            "fileId": 2988137770322193399
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.28",
+            "fileId": 3010828431094944939
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Upland.Rock.v11.1/Upland.Rock.v11.1_LOD1",
+            "fileId": 3056805355270401227
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.1_LOD2",
+            "fileId": 3120945790802861027
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Market.Lader.v1.1",
+            "fileId": 3146607966603062998
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Coverage.v1.1",
+            "fileId": 3162089191167404954
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.10_LOD2",
+            "fileId": 3191405975707378650
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/MonkeyBars.v2.1/MonkeyBars.v2.1_LOD0",
+            "fileId": 3217210357470824261
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.26",
+            "fileId": 3228374500740881654
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.38",
+            "fileId": 3229989846588006528
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.7",
+            "fileId": 3234764531669061818
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.8_LOD2",
+            "fileId": 3235455873696245942
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.4_LOD1",
+            "fileId": 3247645773593441610
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Apple.Cinnamon.v1.1",
+            "fileId": 3260366376142275264
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/RopeClimber.Web.v2.1",
+            "fileId": 3267599737199191886
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Upland.Rock.v10.1/Upland.Rock.v10.1_LOD1",
+            "fileId": 3276671805747442085
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.17",
+            "fileId": 3326443784257572746
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.16_LOD0",
+            "fileId": 3363297445816310082
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Pier.Border.v1.1",
+            "fileId": 3373324350295064660
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Rock.High.v2.1",
+            "fileId": 3397053422203242066
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.6",
+            "fileId": 3435950398129019510
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Octopus.v1.1",
+            "fileId": 3454508383050321759
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.7_LOD2",
+            "fileId": 3459422756469566143
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Arc.v1.1_LOD0",
+            "fileId": 3461980911835385224
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Hill.Lader.v1.1",
+            "fileId": 3462737420082420016
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.Bells.v1.2",
+            "fileId": 3479359923713551949
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.8_LOD0",
+            "fileId": 3494497402196468821
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.11_LOD1",
+            "fileId": 3495937865438209381
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief002.v1.1/Thuja.Lief002.v1.3_LOD0",
+            "fileId": 3526652837304041607
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.Bells.v1.10",
+            "fileId": 3559740845736998847
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Flower.v1.1",
+            "fileId": 3601839277783127983
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.WaterLiles.v4.1/Ravine.WaterLiles.v4.1_LOD0",
+            "fileId": 3641745494465894097
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.3",
+            "fileId": 3671348213192257369
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Panda.Sticks.v3.1",
+            "fileId": 3684816610407177431
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.WaterLiles.v2.1/Ravine.WaterLiles.v2.1_LOD0",
+            "fileId": 3687887340441071335
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.4_LOD2",
+            "fileId": 3690714398094652770
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Bush.Trunk.001.v1.1",
+            "fileId": 3714515128458572184
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.WaterLiles.v1.1",
+            "fileId": 3846137796983131546
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Rock.High.v8.1",
+            "fileId": 3849339442380154691
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.19",
+            "fileId": 3903834701637808092
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/RopeClimber.Sphere.v2.1/RopeClimber.Sphere.v2.1_LOD0",
+            "fileId": 3914859267043742698
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Monkey.Bench.v1.1/Monkey.Bench.v1.1_LOD0",
+            "fileId": 3928710314441531656
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Pier.StorBarrel.v1.1",
+            "fileId": 3941620745860160355
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Border.Tree.v1.2",
+            "fileId": 3945648467624423634
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.Bells.v1.8",
+            "fileId": 3955437138485893977
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Rock.High.v7.1",
+            "fileId": 3982318929457081947
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.Caterpillar.v1.1",
+            "fileId": 3994499193519174080
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Pier.Land.v1.1",
+            "fileId": 4028668393095106171
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.WaterLiles.v4.1/Ravine.WaterLiles.v4.1_LOD1",
+            "fileId": 4042018918754562055
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.5_LOD1",
+            "fileId": 4046631632401309367
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.14_LOD1",
+            "fileId": 4047581657981498160
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.Bench.v4.1",
+            "fileId": 4071947125478320192
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Pier.Lamp.v1.1",
+            "fileId": 4112403352371418876
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.3_LOD1",
+            "fileId": 4112716825018159389
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Border.Land.v1.1",
+            "fileId": 4160482708523952281
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.9",
+            "fileId": 4162262486623760517
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Bridge.v1.1/Pier.Bridge.v1.1_LOD1",
+            "fileId": 4166508205712020061
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.Caterpillar.v2.1/Ravine.Caterpillar.v2.1_LOD1",
+            "fileId": 4171082218374836619
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Monkey.Bench.v1.2/Monkey.Bench.v1.2_LOD1",
+            "fileId": 4187813615348982212
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/HillHands.ChamomilePetal.v4.1/HillHands.ChamomilePetal.v4.1_LOD1",
+            "fileId": 4215749968999896643
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.40",
+            "fileId": 4217348395005505005
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Rock.High.v5.1",
+            "fileId": 4246963088970426439
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.16",
+            "fileId": 4256930811558355614
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Hill.Fence.v1.1",
+            "fileId": 4298464106320689047
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.Caterpillar.v2.1/Ravine.Caterpillar.v2.1_LOD0",
+            "fileId": 4317247498637307522
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Upland.Hammok.v1.2",
+            "fileId": 4324454665076640647
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.Land.v1.1",
+            "fileId": 4366490970533670265
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.14",
+            "fileId": 4394675417486698830
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Upland.Rock.v17.1",
+            "fileId": 4450615098649652900
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.7",
+            "fileId": 4455851749486714524
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Apple.v1.1",
+            "fileId": 4461479936148022140
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Chair.v4.1",
+            "fileId": 4519325104894742156
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Rock.High.v6.1",
+            "fileId": 4528744642676648875
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.LiefSlide.v1.1",
+            "fileId": 4550325077321799509
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.TreeApple.v1.1/Ravine.TreeApple.v1.1_LOD1",
+            "fileId": 4551391423297492897
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.8",
+            "fileId": 4559312415367771269
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Road.Curbs.v1.1",
+            "fileId": 4581812380909097474
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/HillHands.ChamomilePetal.v1.1/HillHands.ChamomilePetal.v1.1_LOD0",
+            "fileId": 4598018306118520317
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.ChamomileTrunk.v2.1",
+            "fileId": 4598572233750497375
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tree.Lief001.v1.2",
+            "fileId": 4622282559220191908
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Chair.v3.1",
+            "fileId": 4626863400748059889
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.6_LOD1",
+            "fileId": 4657929604117107113
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.Trunk.v2.1/Ravine.Trunk.v2.1_LOD0",
+            "fileId": 4692635032432309530
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.WaterLiles.v2.1",
+            "fileId": 4701419921667124759
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Hill.Rock.v5.1",
+            "fileId": 4704046943942660946
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.WaterLiles.v4.1",
+            "fileId": 4716240241130994225
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief002.v1.1/Thuja.Lief002.v1.4_LOD0",
+            "fileId": 4723451020590121518
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Platform.v1.1",
+            "fileId": 4724962108341619876
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Сloth.v4.1",
+            "fileId": 4759254125476675291
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.29",
+            "fileId": 4775541680637332769
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.15",
+            "fileId": 4791861287071909576
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.12_LOD2",
+            "fileId": 4801611996247258257
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tree.Trunk001.v1.1",
+            "fileId": 4848050442137343411
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/HillHands.GandalfPetal.v2.1/HillHands.GandalfPetal.v2.1_LOD0",
+            "fileId": 4857463536412626765
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Monkey.Bench.v1.2",
+            "fileId": 4929791952534604484
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Spiral.Wall.v1.1/Spiral.Wall.v1.1_LOD1",
+            "fileId": 4932330184064540841
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.27",
+            "fileId": 4949111988530104947
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Upland.Bench.v1.1",
+            "fileId": 5051086913853311596
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.WaterLiles.v1.1/Ravine.WaterLiles.v1.1_LOD0",
+            "fileId": 5087123121764630464
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.BenchRoof.v1.1",
+            "fileId": 5105001580130515088
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.BellsTrunk.v1.012",
+            "fileId": 5109148076413717649
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Monkey.Arc.v1.1",
+            "fileId": 5114774913044853637
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Butterfly.v2.1",
+            "fileId": 5170221090373156676
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.GandalfTrunk.v1.1",
+            "fileId": 5172833696302337013
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.GandalfTrunk.v5.1",
+            "fileId": 5198346555664128889
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Border.Road.v1.1",
+            "fileId": 5206107009006190910
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief002.v1.1/Thuja.Lief002.v1.2_LOD0",
+            "fileId": 5237419180930258190
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/GameObject",
+            "fileId": 5240418666970081560
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Panda.Rock.v.1.1",
+            "fileId": 5247763110485311385
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Ship.v1.1/Pier.Ship.v1.1_LOD0",
+            "fileId": 5295222093588772823
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Castle.v1.1/Pier.Castle.v1.1_LOD1",
+            "fileId": 5300717545803253737
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.17/Thuja.Lief001.v1.20_LOD1",
+            "fileId": 5305039015802940752
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Panda.Logs.v1.1",
+            "fileId": 5368664343484128937
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.BellsTrunk.v1.5",
+            "fileId": 5408260315444142398
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk002.v1.5",
+            "fileId": 5416419062535490368
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.4_LOD0",
+            "fileId": 5433452030098132698
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.17",
+            "fileId": 5492888134846804470
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Monkey.Bench.v1.1",
+            "fileId": 5502014558984879698
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.17",
+            "fileId": 5516656401878255074
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.1_LOD0",
+            "fileId": 5528797526885729616
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Octopus.v1.1/Pier.Octopus.v1.1_LOD0",
+            "fileId": 5533820892448229126
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Grass.v2.1",
+            "fileId": 5591436973048144475
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Market.Floor.v1.1",
+            "fileId": 5627051441249166500
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Lantern.v2.1",
+            "fileId": 5627987857959871943
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Apple.v1.1/Apple.v1.1_LOD0",
+            "fileId": 5630110670529172322
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.3_LOD2",
+            "fileId": 5650467288307534377
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Wall.v1.1",
+            "fileId": 5674412524111227390
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Floor.v1.1",
+            "fileId": 5689360830066818168
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Spiral.Rack.v1.1",
+            "fileId": 5708873680765951499
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Pier.Rod.v2.1",
+            "fileId": 5753718149609176450
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Log.v1.1",
+            "fileId": 5753987322191517732
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Castle.v1.1/Pier.Castle.v1.1_LOD0",
+            "fileId": 5771091525599536511
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.31",
+            "fileId": 5776347283125077658
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Pier.WoodPath.v1.1",
+            "fileId": 5784251842046605855
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.Trunk.v1.1",
+            "fileId": 5785386875337205058
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.BellsTrunk.v1.10",
+            "fileId": 5785690130264236870
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.15_LOD0",
+            "fileId": 5790209167869950254
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/RopeClimber.Web.v2.1/RopeClimber.Web.v2.1_LOD0",
+            "fileId": 5820433401037033044
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Arc.v2.1",
+            "fileId": 5826546136472686195
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.25",
+            "fileId": 5904083944045073274
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Spiral.Wall.v1.1",
+            "fileId": 5926368635819964333
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.Caterpillar.v2.1",
+            "fileId": 5953965007837027386
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.14_LOD0",
+            "fileId": 5961135936726498258
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk002.v1.2",
+            "fileId": 5993095922434508214
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/MonkeyBars.v2.1",
+            "fileId": 5998444975198191318
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.16_LOD1",
+            "fileId": 6001906201944914245
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.Bench.v14.1",
+            "fileId": 6013159689348259539
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Lantern.v3.1",
+            "fileId": 6078844723374717709
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.BellsTrunk.v1.011",
+            "fileId": 6140641465795263940
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Pier.WoodenFence.v1.1",
+            "fileId": 6141832552100332969
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Bridge.v1.1",
+            "fileId": 6141949671833998448
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.13_LOD2",
+            "fileId": 6174815144297637260
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Arc.v3.1",
+            "fileId": 6183808986922425610
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Pier.Rod.v1.1",
+            "fileId": 6204793821873229353
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Upland.Deer.v1.1",
+            "fileId": 6218447546320658539
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.3",
+            "fileId": 6222360248286191933
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Road.Curbs.v4.1",
+            "fileId": 6242388970949550412
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Hill.Land.v1.1",
+            "fileId": 6261472453914904238
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Bush001.v1.1",
+            "fileId": 6274789252567372595
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Upland.Wall.v2.1",
+            "fileId": 6287615090216872573
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Clumb.v1.1",
+            "fileId": 6341640150941111258
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk002.v1.4",
+            "fileId": 6348031894835979272
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Dome.Trunk.v3.1",
+            "fileId": 6370107189854707529
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.WaterLiles.v1.1/Ravine.WaterLiles.v1.1_LOD1",
+            "fileId": 6402842751675374747
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief002.v1.1/Thuja.Lief002.v1.1_LOD0",
+            "fileId": 6410954504685972342
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Upland.Hammok.v1.1",
+            "fileId": 6416966820363613300
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.10_LOD0",
+            "fileId": 6453806739481112918
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Upland.Rock.v17.1/Upland.Rock.v17.1_LOD0",
+            "fileId": 6490076253321070989
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Rock.High.v1.1",
+            "fileId": 6498255375577949871
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.12",
+            "fileId": 6523864762366246815
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Castle.v1.1",
+            "fileId": 6525798831070718171
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Spiral.Bench.v1.1",
+            "fileId": 6534465452591813122
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.11_LOD2",
+            "fileId": 6537380743838585398
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Upland.ArcFrame.v2.1",
+            "fileId": 6589377402187376231
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.39",
+            "fileId": 6618633093431537895
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Wall.v1.1/Pier.Wall.v1.1_LOD0",
+            "fileId": 6646533266544711544
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Rock.High.v4.1",
+            "fileId": 6660386662624786300
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Upland.Rock.v17.1/Upland.Rock.v17.1_LOD1",
+            "fileId": 6662151326916524958
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.15",
+            "fileId": 6685662226174159660
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.16",
+            "fileId": 6751180614023005846
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.18",
+            "fileId": 6760549546436965199
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.BellsTrunk.v1.7",
+            "fileId": 6761360174241804067
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Octopus.v1.1/Pier.Octopus.v1.1_LOD1",
+            "fileId": 6771860968025289496
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Upland.Rock.v1.1/Upland.Rock.v1.1_LOD1",
+            "fileId": 6773555117784076736
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.13_LOD1",
+            "fileId": 6793780549602335127
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.17/Thuja.Lief001.v1.19_LOD0",
+            "fileId": 6856357736288743120
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Market.Arc.v1.1",
+            "fileId": 6872525223490127581
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.15_LOD2",
+            "fileId": 6873009434119172240
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tree.Lief001.v1.3",
+            "fileId": 6886025388134225697
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.Bells.v1.4",
+            "fileId": 6906339282790632541
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Upland.ArcRoof.v1.1",
+            "fileId": 6907930844160660771
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.BellsTrunk.v1.9",
+            "fileId": 6985794693398826741
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.16_LOD2",
+            "fileId": 7006821505746268892
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.2",
+            "fileId": 7037644792212446250
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Dome.Floor.v1.1",
+            "fileId": 7039568958767720736
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Upland.Wall.v1.1",
+            "fileId": 7039748411564348010
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Grass.v1.11",
+            "fileId": 7054366745045684240
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHand.Statue.v1.1",
+            "fileId": 7117660438973549020
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk002.v1.3",
+            "fileId": 7127374041023063984
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Sand.v1.1/Pier.Sand.v1.1_LOD2",
+            "fileId": 7146968492413319650
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Arc.v1.1_LOD1",
+            "fileId": 7159888080048597354
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.BellsTrunk.v1.8",
+            "fileId": 7163473856637411188
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.12_LOD0",
+            "fileId": 7195104051542784347
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Road.v1.1",
+            "fileId": 7230789398666606610
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Apple.Cinnamon.v1.1/Apple.Cinnamon.v1.1_LOD0",
+            "fileId": 7258816548710586446
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.8",
+            "fileId": 7266032967049052745
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.2_LOD2",
+            "fileId": 7272093205828157759
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Pier.Seashell.v1.1",
+            "fileId": 7293242925675796213
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Wall.v2.1",
+            "fileId": 7321410026543375374
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Fox.v1.1",
+            "fileId": 7321658519751813331
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Hill.Rock.v3.1",
+            "fileId": 7337216913226613911
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.Bells.v1.9",
+            "fileId": 7347352633716466685
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Grass.v1.16",
+            "fileId": 7386933164154410667
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.24",
+            "fileId": 7389383222990201312
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP",
+            "fileId": 7404821334781505435
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.Bench.v10.1",
+            "fileId": 7426842958925704059
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Spiral.Rock.v2.1",
+            "fileId": 7439914530354651041
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Pier.Lamp.v3.1",
+            "fileId": 7445307738045147934
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Banana.v1.1",
+            "fileId": 7477467655231795524
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Pier.Dock.v1.1",
+            "fileId": 7482450983094572350
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Upland.Deer.v2.1",
+            "fileId": 7493733576317688509
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.Bells.v1.7",
+            "fileId": 7510798417804001673
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Hill.Arc.v1.1",
+            "fileId": 7511587272995482491
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Pier.Stick.v1.1",
+            "fileId": 7543045492728870003
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Lader.v1.2",
+            "fileId": 7604649291796434540
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.17/Thuja.Lief001.v1.17_LOD0",
+            "fileId": 7608790636892404542
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[Settings]/DirectionalLight",
+            "fileId": 7630189508117846443
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Grass.v3.1",
+            "fileId": 7670180689474409819
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Spiral.Land.v1.1",
+            "fileId": 7674560978716731743
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Bench.v1.1",
+            "fileId": 7680846845652065247
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Stone.v1.1",
+            "fileId": 7685333173898958479
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.8_LOD1",
+            "fileId": 7690100176563954953
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief002.v1.1/Thuja.Lief002.v1.3_LOD1",
+            "fileId": 7727213243755517052
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Apple.v1.1/Apple.v1.1_LOD1",
+            "fileId": 7762294586852215815
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.11",
+            "fileId": 7773280172292069692
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.33",
+            "fileId": 7810468766978956042
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.11",
+            "fileId": 7812297354034504966
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Upland.Rock.v4.1/Upland.Rock.v4.1_LOD0",
+            "fileId": 7818397213621205009
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10/Thuja.Lief001.v1.10_LOD1",
+            "fileId": 7839898198410106091
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.Trunk.v1.1/Ravine.Trunk.v1.1_LOD1",
+            "fileId": 7860091115973631379
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Banana.v1.2",
+            "fileId": 7862224152512758281
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.UplandLand.v1.1",
+            "fileId": 7875642469333157992
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Arc.v4.1",
+            "fileId": 7885294424912586956
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.17/Thuja.Lief001.v1.17_LOD1",
+            "fileId": 7890090058320545953
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Upland.BridgeRoad.v1.1",
+            "fileId": 7906736445164117007
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Large.v1.1",
+            "fileId": 7918224500896766905
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Bridge.Support.v1.1",
+            "fileId": 7926333969438271548
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.32",
+            "fileId": 7940029961537718656
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Сloth.v3.1",
+            "fileId": 7947343565161765605
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Spiral.Bench.v1.3",
+            "fileId": 7949402097024335579
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Grass.v1.6",
+            "fileId": 8060337651990759092
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Dome.Trunk.v5.1",
+            "fileId": 8114134883294633853
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.TreeApple.v1.1",
+            "fileId": 8121883745394359190
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.17/Thuja.Lief001.v1.18_LOD2",
+            "fileId": 8148629016432340800
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Grass.v1.1",
+            "fileId": 8153722169798533708
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Sand.v1.1/Pier.Sand.v1.1_LOD0",
+            "fileId": 8177135295718151978
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Chair.v1.1",
+            "fileId": 8219155270195564202
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Dome.Coverage.v1.1",
+            "fileId": 8255697084765774820
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/HillHands.BellsTrunk.v1.3",
+            "fileId": 8284542846139343116
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.17/Thuja.Lief001.v1.18_LOD0",
+            "fileId": 8290548431772166032
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Dome.Trunk.v2.1",
+            "fileId": 8319819944197937145
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Grass.v1.8",
+            "fileId": 8330003645907414939
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Hill.Rock.v2.1",
+            "fileId": 8338488544611554986
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Hill.Rock.v1.1",
+            "fileId": 8345470254412786696
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Border.Tree.v1.7",
+            "fileId": 8345776848772282656
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.5_LOD0",
+            "fileId": 8347512260601020850
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Hill.Logs.v1.002",
+            "fileId": 8388146863813632357
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Rock.High.v3.1",
+            "fileId": 8432250836271335631
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.10",
+            "fileId": 8447071477269700937
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.10",
+            "fileId": 8447562593762452121
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.TreeApple.v1.1/Ravine.TreeApple.v1.1_LOD0",
+            "fileId": 8458553640868860720
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Pier.Barrel.v1.1",
+            "fileId": 8508430003263127044
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief002.v1.1/Thuja.Lief002.v1.2_LOD1",
+            "fileId": 8522355680595124579
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.6",
+            "fileId": 8534690367507131162
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Pier.Land.v2.1",
+            "fileId": 8538368755893196260
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Pier.Bench.v1.1",
+            "fileId": 8574185461809685068
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.17/Thuja.Lief001.v1.19_LOD2",
+            "fileId": 8598797708627945357
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Сloth.v1.1",
+            "fileId": 8641656040975033288
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.17/Thuja.Lief001.v1.17_LOD2",
+            "fileId": 8642903345550314301
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.WaterLiles.v3.1/Ravine.WaterLiles.v3.1_LOD0",
+            "fileId": 8648157203938790580
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Lief.v1.1",
+            "fileId": 8660603130520875101
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.21",
+            "fileId": 8701026627039799885
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/HillHands.GandalfPetal.v2.1/HillHands.GandalfPetal.v2.1_LOD1",
+            "fileId": 8715993315821788435
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Thuja.Trunk001.v1.20",
+            "fileId": 8729738403330341671
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.9_LOD1",
+            "fileId": 8776763009997392098
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.2_LOD0",
+            "fileId": 8781254785127639816
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/RopeClimber.Sphere.v2.1/RopeClimber.Sphere.v2.1_LOD1",
+            "fileId": 8815841748072455027
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Dome.Trunk.v1.1",
+            "fileId": 8819851018428081393
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Butterfly.v3.1",
+            "fileId": 8833731397370291984
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Chair.v2.1",
+            "fileId": 8839787345526519976
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Upland.Rock.v4.1",
+            "fileId": 8854048068930270797
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Hill.Logs.v1.1",
+            "fileId": 8872000539338547707
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Pier.Wall.v1.1/Pier.Wall.v1.1_LOD1",
+            "fileId": 8892804231465767901
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Ravine.Hadrail.v2.1",
+            "fileId": 8895036610739625694
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Border.Tree.v1.8",
+            "fileId": 8910877495867578574
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]",
+            "fileId": 8982477346457177090
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.Trunk.v2.1",
+            "fileId": 9027746329055362280
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1/Thuja.Lief001.v1.1_LOD1",
+            "fileId": 9028936509328781740
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Tent.Arc.v1.1",
+            "fileId": 9029768637364939420
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.WaterLiles.v3.1/Ravine.WaterLiles.v3.1_LOD1",
+            "fileId": 9034573289340292654
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.5",
+            "fileId": 9063589279043607992
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.Caterpillar.v1.1/Ravine.Caterpillar.v1.1_LOD0",
+            "fileId": 9125881972913428099
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Thuja.Lief001.v1.10",
+            "fileId": 9151531640406371082
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Ravine.Trunk.v2.1/Ravine.Trunk.v2.1_LOD1",
+            "fileId": 9160029898908607143
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/MonkeyBars.v2.1/MonkeyBars.v2.1_LOD1",
+            "fileId": 9183023348634719993
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Streetlight.v1.9",
+            "fileId": 9197730267759593183
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/LOD.GROUP/Monkey.Bench.v1.2/Monkey.Bench.v1.2_LOD0",
+            "fileId": 9202253067399600964
+        },
+        {
+            "prefab": "Assets/_Project/Reso/Location-Art.prefab",
+            "path": "Location-Art/[World]/Childhood.v2/Hill.Rock.v4.1",
+            "fileId": 9215184721940818415
+        }
+    ]
+}
